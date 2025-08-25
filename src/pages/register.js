@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Register() {
   const emojis = ['🎬','🎵','📸','📚','🎧','🎤','🎥','📀','🎶','📺','🎹','🎷','🎺','🎻','📻','🎼','🖼️','📽️','📁','💿'];
 
-  // Génère un tableau de 50 emojis aléatoires pour le fond
+  //Mon tableau aleatoire d'emojis
   const backgroundEmojis = Array.from({ length: 50 }, (_, i) => {
     const emoji = emojis[Math.floor(Math.random() * emojis.length)];
     const top = Math.random() * 95;
@@ -20,7 +20,7 @@ export default function Register() {
   return (
     <div className="relative flex justify-center items-center min-h-screen bg-gray-900 overflow-hidden">
 
-      {/* Emojis dispersés */}
+      {/* mes emojis dispersés */}
       <div className="absolute w-full h-full pointer-events-none">
         {backgroundEmojis.map(e => (
           <span
