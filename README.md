@@ -50,4 +50,4 @@ Voici une capture de la page de connexion :
 
 Page d'inscription
 
-![Page d'inscription](./page-inscription.png)
+![Page d'inscription](./page-inscription.PNG)
